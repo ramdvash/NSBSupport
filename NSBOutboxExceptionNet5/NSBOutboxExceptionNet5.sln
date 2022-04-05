@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSBOutboxException", "NSBOutboxException\NSBOutboxException.csproj", "{0769258E-29CB-4E70-AAA3-D0449060A9EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSBOutboxExceptionNet5", "NSBOutboxExceptionNet5\NSBOutboxExceptionNet5.csproj", "{DD2D47CC-96BC-45EE-B52F-519E96262867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0769258E-29CB-4E70-AAA3-D0449060A9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0769258E-29CB-4E70-AAA3-D0449060A9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0769258E-29CB-4E70-AAA3-D0449060A9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0769258E-29CB-4E70-AAA3-D0449060A9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2D47CC-96BC-45EE-B52F-519E96262867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2D47CC-96BC-45EE-B52F-519E96262867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2D47CC-96BC-45EE-B52F-519E96262867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2D47CC-96BC-45EE-B52F-519E96262867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E708851A-265F-48C4-8214-08755E143989}
+		SolutionGuid = {1E63C7D3-C0B0-4594-8B7B-CE70864A8090}
 	EndGlobalSection
 EndGlobal

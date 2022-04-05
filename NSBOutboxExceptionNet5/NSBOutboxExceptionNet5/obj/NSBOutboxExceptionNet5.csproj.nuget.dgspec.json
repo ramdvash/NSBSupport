@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rdvash\\source\\Lab\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rdvash\\source\\Lab\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rdvash\\source\\Lab\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5.csproj",
+        "projectName": "NSBOutboxExceptionNet5",
+        "projectPath": "C:\\Users\\rdvash\\source\\Lab\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5.csproj",
+        "packagesPath": "C:\\Users\\rdvash\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rdvash\\source\\Lab\\NSBOutboxExceptionNet5\\NSBOutboxExceptionNet5\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rdvash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rdvash\\source\\repos\\Beka.Framework\\src\\CRB.Beka.Common.Contracts\\bin\\Debug": {},
+          "C:\\Users\\rdvash\\source\\repos\\Beka.Framework\\src\\CRB.Beka.Infrastructure.NBus\\bin\\Debug": {},
+          "C:\\Users\\rdvash\\source\\repos\\Beka.Framework\\src\\CRB.Beka.ServiceBus.Messages\\bin\\Debug": {},
+          "C:\\Users\\rdvash\\source\\repos\\Beka.Framework\\src\\CRB.Beka.Utils\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/crossriverbank/_packaging/common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.7.0, )"
+            },
+            "NServiceBus.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NServiceBus.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "NServiceBus.Persistence.Sql": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "NServiceBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
