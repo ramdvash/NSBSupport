@@ -3,6 +3,11 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddPersistence(builder.Configuration);
+builder.Services.MigrateDatabase<MonitorContext>();
+
 builder.Host.ConfigureAppConfiguration(config =>
 {
     config
@@ -16,10 +21,10 @@ builder.Host.ConfigureAppConfiguration(config =>
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddPersistence(builder.Configuration);
-builder.Services.MigrateDatabase<MonitorContext>();
+//builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
+//builder.Services.AddPersistence(builder.Configuration);
+//builder.Services.MigrateDatabase<MonitorContext>();
 
 var app = builder.Build();
 
